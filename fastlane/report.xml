@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.011358">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: Switch to android changeAssets lane" time="0.00129">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: cp -a ../app-config/colors-base.xml ../app/src/main/res/values/" time="0.010777">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: cp -a ../app-config/strings-base.xml ../app/src/main/res/values/" time="0.011077">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: cp -a ../app-config/app.properties ../app" time="0.008973">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: Switch to android install lane" time="0.004108">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: gradle" time="29.143032">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

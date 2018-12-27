@@ -1,0 +1,32 @@
+default_platform(:android)
+
+platform :android do
+
+  #DIR_SOURCE = '/Users/rana.singh/Desktop/brand-config'
+  DIR_SOURCE = '../brand-config'
+
+  DIR_APP = '../app'
+  DIR_VALUE = DIR_APP + '/src/main/res/values/'
+
+  COLOR_BASE = DIR_SOURCE + '/colors-base.xml'
+  STRING_BASE = DIR_SOURCE + '/strings-base.xml'
+  APP_PROPERTIES = DIR_SOURCE + '/app.properties'
+
+  desc "Generate Build"
+  lane :deploy do
+    changeAssets
+    install
+  end
+
+  desc "Change app assets"
+  lane :changeAssets do
+    sh ("cp -a #{COLOR_BASE} #{DIR_VALUE}")
+    sh ("cp -a #{STRING_BASE} #{DIR_VALUE}")
+    sh ("cp -a #{APP_PROPERTIES} #{DIR_APP}")
+  end
+
+  desc "Create build"
+  lane :install do
+    gradle(task: "clean assembleDebug installDebug")
+  end
+end
