@@ -5,37 +5,37 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.011358">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.012634">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: Switch to android changeAssets lane" time="0.00129">
+      <testcase classname="fastlane.lanes" name="1: Switch to android changeAssets lane" time="0.001685">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: cp -a ../app-config/colors-base.xml ../app/src/main/res/values/" time="0.010777">
+      <testcase classname="fastlane.lanes" name="2: cp -a ../brand-config/colors-base.xml ../app/src/main/res/values/" time="0.014982">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: cp -a ../app-config/strings-base.xml ../app/src/main/res/values/" time="0.011077">
+      <testcase classname="fastlane.lanes" name="3: cp -a ../brand-config/strings-base.xml ../app/src/main/res/values/" time="0.009181">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: cp -a ../app-config/app.properties ../app" time="0.008973">
+      <testcase classname="fastlane.lanes" name="4: cp -a ../brand-config/app.properties ../app" time="0.008738">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: Switch to android install lane" time="0.004108">
+      <testcase classname="fastlane.lanes" name="5: Switch to android install lane" time="0.001536">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: gradle" time="29.143032">
+      <testcase classname="fastlane.lanes" name="6: gradle" time="0.566136">
         
       </testcase>
     

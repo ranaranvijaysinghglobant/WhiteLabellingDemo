@@ -2,7 +2,6 @@ default_platform(:android)
 
 platform :android do
 
-  #DIR_SOURCE = '/Users/rana.singh/Desktop/brand-config'
   DIR_SOURCE = '../brand-config'
 
   DIR_APP = '../app'
